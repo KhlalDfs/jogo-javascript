@@ -11,7 +11,7 @@ let tentativa = 1;
 function exibir(tag, texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    //responsiveVoice.speak(texto, "Brazilian Portuguese Female", {rate:1.2});
+    responsiveVoice.speak(texto, "Brazilian Portuguese Female", {rate:1.2});
 }
 function mensaagemInicial(){
     exibir("h1", "Jogo");
